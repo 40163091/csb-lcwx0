@@ -1,0 +1,99 @@
+/*layout for the webpage */
+
+body {
+  width: 1000px;
+  margin: 0 auto; /*Set the page to center*/
+  background: #20b2aa; /*Title background colour*/
+  color: #20b2aa; /*Heading colour*/
+}
+
+h1. h3 {
+  color: #20b2aa;
+}
+
+h5 {
+  color: #20b2aa;
+}
+header {
+  width: 1000px;
+  float: left;
+  display: inline-block;
+
+  background: White;
+}
+
+nav {
+  width: 1000px;
+  margin: 0 auto;
+  float: left;
+  display: inline-block;
+  background: whitesmoke;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+  float: left;
+  display: inline-block;
+  background: #cccccc;
+}
+
+/*control product box*/
+
+.contain {
+  width: 988px;
+  float: left;
+  display: inline;
+  //border: 1px dotted;
+  margin-top: 20px;
+  margin-left: 9px;
+  margin-bottom: 10px;
+}
+
+.prod_box {
+  width: 304px;
+  float: left;
+  display: inline;
+  border: 1px solid;
+  margin: 10px;
+}
+
+.prod_pic {
+  width: 100%;
+  float: left;
+  display: inline;
+  //border: 1px solid;
+  //margin: 10px;
+}
+
+.prod_price {
+  width: 80%;
+  height: 250px;
+  float: left;
+  display: inline;
+  //border: 1px solid;
+  // margin: 10px;
+  padding: 10%;
+  background: #f8f8f8;
+  font-size: 20px;
+}
+
+/*control feedback*/
+
+.feedback {
+  width: 42%;
+  border: 1px solid;
+  margin: 2%;
+  padding: 1.5%;
+  float: left;
+  display: inline;
+  background: #f8f8f8;
+}
+
+footer {
+  width: 1000px;
+  float: left;
+  display: inline-block;
+  background: white;
+  text-align: center;
+}

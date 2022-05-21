@@ -1,0 +1,29 @@
+/*Control the main menu*/
+main_menu {
+  margin: 20px;
+  padding: 30px;
+}
+
+.main_li {
+  width: 130px;
+  height: 55px;
+  float: left;
+  display: inline-block;
+  line-height: 50px; /*moves the text close to the center from the top*/
+  font-size: 19px;
+  text-transform: uppercase; /*change all text to capitals*/
+  text-align: center;
+}
+
+.main_a {
+  text-decoration: none; /*take out underline and bullets*/
+  color: #20b2aa;
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.main_a:hover {
+  background: #20b2aa;
+  color: rgba(245, 245, 245, 0.897);
+}
